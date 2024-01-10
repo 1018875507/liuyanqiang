@@ -1,2 +1,6 @@
 # liuyanqiang
-使用VUE编写的，小项目
+### 创建vue项目
+```
+vue create web(项目名字)
+```
+
