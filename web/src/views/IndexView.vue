@@ -1,7 +1,7 @@
 <template>
     <div class="wall-index">
         <top-bar></top-bar>
-        <video src="../assets/images/qm1.mp4" autoplay="autoplay" muted="muted" loop="loop" class="bg-video"></video>
+        <!-- <video src="../assets/images/qm1.mp4" autoplay="autoplay" muted="muted" loop="loop" class="bg-video"></video> -->
         <router-view></router-view>
         <FootBar></FootBar>
     </div>
@@ -20,13 +20,15 @@ import FootBar from '@/components/FootBar.vue';
 </script>
 <style lang="less" scoped>
 .wall-index{
-    border: none;
+    
+    
     .bg-video{
+        display:block;
         position: fixed;
         top: 0;
         left: 0;
-        width: 1220px;
-        height: 800px;
+        width: 1250px;
+        height: 750px;
         z-index: -1;
         border: none;
     }

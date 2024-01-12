@@ -16,4 +16,5 @@ export default {
 
 <style lang="less" scoped>
 @import url("./styles/common.less");
+@import "./assets/icon/iconfont.css";
 </style>

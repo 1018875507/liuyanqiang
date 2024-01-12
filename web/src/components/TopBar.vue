@@ -30,7 +30,7 @@ import AaButton from './AaButton.vue';
     width: 1200px;
     height: 52px;
     background: rgba(255, 255, 255,1);
-    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.1);
     top:0;
     left: 0;
     z-index: 999;
